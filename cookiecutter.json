@@ -1,9 +1,6 @@
 {
-  "project_name": "MyAwesomeProject",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "author_name": "Your Name",
-  "version": "0.1.0",
-  "license": "MIT",
-  "description": "A short description of the project."
+  "name": "my-service",
+  "owner": "team-name",
+  "system": "system-name",
+  "destination": "https://github.com/your-org/your-repo.git"
 }
-
