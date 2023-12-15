@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: {{ cookiecutter.name }}
+  description: {{ cookiecutter.description | default("NestJS service created from cookiecutter template") }}
+  tags:
+    - nestjs
+    - nodejs
+    - service
+spec:
+  type: service
+  owner: {{ cookiecutter.owner }}
+  lifecycle: {{ cookiecutter.lifecycle | default("experimental") }}
+  system: {{ cookiecutter.system | default("") }}
